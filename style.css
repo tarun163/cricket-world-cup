@@ -1,0 +1,88 @@
+        .page-title {
+            font-size: 3rem;
+            font-family: Hind Siliguri, Arial, Helvetica Neue, Helvetica, sans-serif;
+            font-weight: 600;
+        }
+        
+        section.front .heading {
+            background-image: url('https://www.klaviyo.com/wp-content/uploads/2016/09/abstract-background-1024x273.jpg');
+            height: 200px;
+            max-width: 100%;
+        }
+        
+        section.front .heading .share img {
+            text-align: center;
+            width: 20px;
+        }
+        
+        section.front .heading .media1 {
+            display: flex;
+        }
+        
+        section.front .heading .share {
+            border: solid 1px;
+            text-align: center;
+            width: 70px;
+        }
+        
+        section.front .heading .share:hover {
+            transition: all .3s ease;
+            background-color: #3B5998;
+            cursor: pointer;
+        }
+        
+        .container {
+            text-align: right;
+            margin-right: 0;
+            padding: 5px 5px;
+        }
+        
+        .container .sign-btn:hover {
+            background-color: #55ACEE;
+        }
+        
+        .fa {
+            width: 23px;
+            text-align: center;
+            text-decoration: none;
+            height: 20px;
+            border-radius: 50%;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+        
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        
+        section.head {
+            padding: 7rem 200px;
+        }
+        
+        .navbar {
+            position: absolute;
+            background-color: transparent;
+        }
