@@ -1,0 +1,211 @@
+    .page-title {
+        font-size: 3rem;
+        font-family: Hind Siliguri, Arial, Helvetica Neue, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .container .nav-contact img {
+        width: 30px;
+        border: 1.3px solid rgb(238, 118, 218);
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .container .nav-contact img:hover {
+        background-color: #55ACEE;
+        transition: all .3s ease-in-out;
+    }
+    
+    .navbar {
+        position: absolute;
+        background-color: transparent;
+    }
+    
+    section.front .heading {
+        background-image: url('https://eskipaper.com/images/blue-abstract-background-2.jpg');
+        height: 200px;
+        max-width: 100%;
+    }
+    
+    section.front .heading .share img {
+        text-align: center;
+        width: 20px;
+    }
+    
+    section.front .heading .media1 {
+        display: flex;
+    }
+    
+    section.front .heading .share {
+        border: solid 1px;
+        text-align: center;
+        width: 70px;
+    }
+    
+    section.front .heading .share:hover {
+        transition: all .3s ease;
+        background-color: #3B5998;
+        cursor: pointer;
+    }
+    
+    .container {
+        display: flex;
+        padding: 5px 0px;
+        margin-left: 45rem;
+    }
+    
+    .container .sign-btn:hover {
+        background-color: #55ACEE;
+    }
+    
+    .fa {
+        width: 23px;
+        text-align: center;
+        text-decoration: none;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    section.head {
+        display: flex;
+    }
+    
+    section.head .vanue {
+        padding: 6rem 220px;
+    }
+    
+    .social div {
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        opacity: 0;
+    }
+    
+    @keyframes moveIn {
+        from {
+            transform: translateX(-100px);
+        }
+        to {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    
+    .social div:hover svg path {
+        fill: black;
+        transition: all .5s ease-in-out;
+    }
+    
+    .social div:hover {
+        background: rgb(124, 160, 240);
+    }
+    
+    .social img {
+        width: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .social {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 140vh;
+        margin-left: 3rem;
+    }
+    
+    .article__summary {
+        margin-bottom: 3rem;
+        line-height: 1.5;
+        font-size: 2.2rem;
+        margin-top: -4rem;
+    }
+    
+    .article__content p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .article__content img {
+        width: 1100px;
+    }
+    
+    .footer-1 {
+        background-image: url('https://www.andology.com/wp-content/uploads/blur-bg-blue-1.jpg');
+        height: 400px;
+        display: flex;
+    }
+    
+    .footer-1 img {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    .footer-1 .footer-logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    hr {
+        color: aliceblue;
+    }
+    
+    .footer-1 .footer-logo img {
+        width: 60px;
+        border: 1.3px solid rgb(97, 176, 228);
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 1.2rem;
+    }
+    
+    .footer-1 .footer-logo img:hover {
+        background-color: #55ACEE;
+        transition: all .3s ease-in-out;
+    }
+    
+    .footer-1 h1 {
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+        padding: 30px 100px;
+    }
+    
+    .footer-1 .links {
+        margin-top: 6rem;
+    }
+    
+    .footer-1 .links a {
+        text-decoration: none;
+        margin-left: 2rem;
+        color: azure;
+    }
+    
+    .footer-1 .links a:hover {
+        color: rgb(243, 64, 189);
+        opacity: .7;
+    }
+    
+    footer {
+        height: 60px;
+        text-align: center;
+    }
+    
+    footer p {
+        margin-top: 20px;
+    }

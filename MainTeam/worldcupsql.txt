@@ -1,0 +1,109 @@
+Create database users;
+use users;
+
+Create table users
+( username varchar(1000),
+  password varchar(1000),
+  dt varchar(1000),
+  first_name varchar(1000),
+  last_name varchar(1000)); 
+
+
+
+
+Create Database worldcup;
+use worldcup;
+
+CREATE TABLE australia
+(player_id INTEGER(4) NOT NULL,
+ player_name VARCHAR(15) NOT NULL,
+ player_team VARCHAR(15),
+ player_role VARCHAR(15),
+ PRIMARY KEY(player_id)
+ );
+
+Insert Into australia values
+(0001,'David Warner','Australia','Batsman'),(0002,'Aron Finch','Australia','Batsman'),(0003,'Steave Smith','Australia','Batsman'),(0004,'Micheal Clark','Australia','Batsman'),(0005,'Alex Carry','Australia','WicketKeepper'),(0006,'Glenn Maxwell','Australia','AllRounder'),(0007,'Marcus Stoinis','Australia','AllRounder'),(0008,'Michell Stark','Australia','Bowler'),(0009,'Joss Hajelwood','Australia','Bowler'),(0010,'Pat Cummins','Australia','AllRounder'),(0011,'M. Jhonson','Australia','Bowler');
+
+
+
+CREATE TABLE england
+(player_id INTEGER(4) NOT NULL,
+ player_name VARCHAR(15) NOT NULL,
+ player_team VARCHAR(15),
+ player_role VARCHAR(15),
+ PRIMARY KEY(player_id)
+ );
+
+INSERT INTO england VALUES
+(0012,'Jos Buttler','England','WicketKeeper'),(0013,'Jonny Bearstrow','England','Batsman'),(0014,'Joe Root','England','Batsman'),(0015,'Jos Eoin Morgan','England','Batsman'),(0016,'Ben Strokes','England','AllRounder'),(0017,'Moein Ali','England','AllRounder'),(0018,'Jofra Archer','England','Bowler'),(0019,'Adil Rasheed','England','Bowler'),(0020,'James Anderson','England','Bowler'),(0021,'Stuart Broad','England','Bowler'),(0022,'Sam Curran','England','Bowler');
+
+
+
+CREATE TABLE southafrica
+(player_id INTEGER(4) NOT NULL,
+ player_name VARCHAR(15) NOT NULL,
+ player_team VARCHAR(15),
+ player_role VARCHAR(15),
+ PRIMARY KEY(player_id)
+ );
+
+INSERT INTO southafrica VALUES
+(0023,'Quitan De Cock','South Africa','WicketKeeper'), (0024,'Hashim Amla','South Africa','Batsman'),(0025,'AB de Villears','South Africa','Batsman'), (0026,'Faf Du Plesis','South Africa','Batsman'),(0027,'David Miller','South Africa','Batsman'),(0028,'Jp Dummany','South Africa','All Rounder'),(0029,'D. Pretorious','South Africa','AllRounder'),(0030,'Imaran Tahir','South Africa','Bowler'),(0031,'Anrch Nortaje','South Africa','Bowler'),
+(0032,'Kagiso Rabada','South Africa','Bowler'), (0033,'Lungia Angidi','South Africa','Bowler'); 
+
+INSERT INTO westindies VALUES
+(0034,'Chris Gayle','West Indies','Batsman'),(0035,'Lindel Simmons','West Indies','Batsman'),(0036,'Shai Hopps','West Indies','Batsman'),(0037,'Nicols Pooran','West Indies','WicketKeeper'),(0038,'S. Hatmayer','West Indies','Batsman'),(0039,'K. Pollard','West Indies','AllRounder'),(0040,'DJ Bravo','West Indies','AllRounder'),(0041,'Suniel Narine','West Indies','Bowler'),(0042,'Jason Holder','West Indies','Bowler'),(0043,'C. Braithwaite','West Indies','Bowler'),(0044,'S. Cottrell','West Indies','Bowler');
+
+CREATE TABLE india
+(player_id INTEGER(4) NOT NULL,
+ player_name VARCHAR(15) NOT NULL,
+ player_team VARCHAR(15),
+ player_role VARCHAR(15),
+ PRIMARY KEY(player_id)
+ );
+
+INSERT INTO india VALUES
+(0045,'KL Rahul','India','WicketKeeper'),(0046,'Rohit Sharma','India','Batsman'),(0047,'Virat Kohli','India','Batsman'),(0048,'Shreyas Iyyer','India','Batssman'),(0049,'Hardik Pandya','India','AllRounder'),(0050,'Ravindra Jadeja','India','AllRounder'),(0051,'Y. Chahal','India','Bowler'),(0052,'Shubman Gill','India','Batsman'),(0053,'B.Kumar','India','Bowler'),(0054,'M. Shami','India','Bowler'),(0055,'J. Bumrah','India','Bowler');
+
+CREATE TABLE newzealand
+(player_id INTEGER(4) NOT NULL,
+ player_name VARCHAR(15) NOT NULL,
+ player_team VARCHAR(15),
+ player_role VARCHAR(15),
+ PRIMARY KEY(player_id)
+ );
+
+INSERT INTO pakistan VALUES
+(0067,'Babar Asjam','Pakistan','Batsman'),(0068,'Imam Ul-Hak','Pakistan','Batsman'),(0069,'M. Hafeez','Pakistan','Batsman'),(0070,'Shadab Khan','Pakistan','AllRounder'),(0071,'Fakar Zaman','Pakistan','Batsman'),(0072,'Shoib Malik','Pakistan','AllRounder'),(0073,'Sarferaz Ahmad','Pakistan','WicketKeeper'),(0074,'M Irfaan','Pakistan','Bowler'),
+(0075,'Wahaib Riyaz','Pakistan','Bowler'),(0076,'Babar Asjam','Pakistan','Batsman'),(0077,'Shaheen Afridi','Pakistan','Bowler');
+
+INSERT INTO newzealand VALUES
+INSERT INTO newzealand VALUES
+(0056,'Martin Guptill','New Zealand','Batsman'),(0057,'B. Macculam','New Zealand','Batsman'),(0058,'K. Willeamson','New Zealand','Batsman'),(0059,'Ross Tayler','New Zealand','Batsman'),(0060,'Tom Latthem','New Zealand','WicketKeeper'),(0061,'Colin Munro','New Zealand','AllRounder'),(0062,'C. Grandhome','New Zealand','AllRounder'),(0063,'D. Vitori','New Zealand','Bowler'),(0064,'Trent Bolt','New Zealand','Bowler'),(0065,'L. Fergushan','New Zealand','Bowler'),(0066,'Tim Southee','New Zealand','Batsman');
+
+
+CREATE TABLE pakistan
+(player_id INTEGER(4) NOT NULL,
+ player_name VARCHAR(15) NOT NULL,
+ player_team VARCHAR(15),
+ player_role VARCHAR(15),
+ PRIMARY KEY(player_id)
+ );
+
+insert into pakistan values...
+
+
+CREATE TABLE teams
+(team_name VARCHAR(15) NOT NULL,
+ coach_name Varchar(15) NOT NULL,
+ PRIMARY KEY(team_name));
+
+INSERT INTO teams VALUES
+('India','Ravi Shastri'),
+('Australia','Justin Langer'),
+('England','C. Silverwood'),
+('New Zealand','Gary Stead'),
+('Pakistan','Misbah-Ul-Haq'),
+('South Africa','Mark Boucher'),
+('West Indies','Phil Simmons');
