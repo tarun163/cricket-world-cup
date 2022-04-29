@@ -4,7 +4,10 @@ Requred to login or create account first .
 php based dynamic webside, working on SQL.
 Contening players information and shedule of matches.
 
-#requirements - 
+# requirements - 
 - PHP
 - SQL
 - html ,css,javascript 
+
+# proccess
+$ git clone master branch
