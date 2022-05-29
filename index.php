@@ -1,2 +1,2 @@
 <h2>hello tarun </h2>
-<a href="welcome.php">welcome</a>
+<a href="signup.php">welcome</a>
