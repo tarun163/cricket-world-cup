@@ -46,7 +46,7 @@ I<html>
                         <a style="font-size: 1.2rem; " class="nav-link " href="# ">Video<span class="sr-only ">(current)</span></a>
                     </li>
                     <li class="nav-item active ">
-                        <a style="font-size: 1.2rem; " class="nav-link " href="\cricket-world-cup/welcome.php ">Home<span class="sr-only ">(current)</span></a>
+                        <a style="font-size: 1.2rem; " class="nav-link " href="\cricket-world-cup/index.php ">Home<span class="sr-only ">(current)</span></a>
                     </li>
 
                 </ul>

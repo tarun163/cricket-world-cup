@@ -121,7 +121,7 @@ body{
     }
     ?>
     <div class="close">
-     <a href="cricket-world-cup/welcome.php">   <h2>X <span>Close</span></h2></a>
+     <a href="cricket-world-cup/index.php">   <h2>X <span>Close</span></h2></a>
 
     </div>
 <section id="forms">

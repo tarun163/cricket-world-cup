@@ -126,7 +126,7 @@ body{
     ?>
 
     <div class="close">
-     <a href="welcome.php">   <h2>X <span>Close</span></h2></a>
+     <a href="index.php">   <h2>X <span>Close</span></h2></a>
     </div>
 <section id="forms">
 
