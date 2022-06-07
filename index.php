@@ -37,7 +37,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 
 <body>
     <div class="scrollTop" onclick="scrollToTop()">
-        <img src="https://www.flaticon.com/svg/static/icons/svg/481/481155.svg" alt="">
+        <img src="./img/arrow-up.png"  alt="">
     </div>
     <div style="text-align: left; width: 34rem; margin-bottom:-4rem" class="intro">
         <div class="alert alert-success" style="display: flex; height:3rem;" role="alert">
